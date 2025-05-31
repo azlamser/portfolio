@@ -89,6 +89,7 @@ span {
         
 }
 #first-section{
+    margin-left: 25px;
         display:flex;
         flex-direction: column;
         align-items: flex-start;
@@ -115,7 +116,7 @@ span {
 
 #img{
     align-items: center;
-
+margin-left: 15px;
 
 }
 
