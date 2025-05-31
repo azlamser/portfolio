@@ -121,3 +121,26 @@ margin-left: 15px;
 }
 
 }
+
+/* @media screen and (min-width:481px) and( mix-width:1024px) {
+ header{
+    background-color: red;
+ }
+} */
+ @media (min-width: 481px) and (max-width: 1024px) {
+    header{
+       display: block;
+       text-align: center;
+
+
+    }
+   #first-section{
+display: flex;
+justify-content: space-evenly;
+height: 800px;
+
+
+
+
+ }
+ }
