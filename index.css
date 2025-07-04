@@ -1,18 +1,21 @@
 * {
     margin: 0px;
     padding: 0px;
+   
 
 }
 /* __________________________________________________________________________ */
 /* header part start */
 
-header nav,
-a {
+
+
+a{
     text-align: right;
     text-decoration: none;
     color: rgb(255, 129, 255);
     padding: 5px;
     padding-right: 20px;
+   
 
 
 
@@ -52,6 +55,7 @@ a:hover {
     height: 590px;
 } */
 #first {
+    width: 100vw;
     height: 630px;
     /* background: linear-gradient(to right, rgb(132, 157, 255), rgb(255, 129, 255)); */
     /* background: linear-gradient(to right, #fbc2eb, #a6c1ee); */
@@ -204,6 +208,7 @@ margin-top: 20px;
 #third{
     background-color: rgb(125, 125, 160);
     color: grey;
+    
 }
 #project_title{
 text-align: center;
@@ -219,6 +224,7 @@ color: white;
     margin-top: 40px;
     align-content: center;
     align-items: center;
+    overflow: hidden;
 
 
 }
@@ -230,7 +236,8 @@ color: white;
     overflow: hidden;
     transition: ease 1s all;
     margin: 15px;
-    box-shadow: 0px 5px 4px rgb(0, 234, 255);
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 4px rgb(20, 82, 88);
     
 }
 .projectbox:hover{
@@ -267,8 +274,12 @@ width: 100%
 /* footer & contact me part start */
 
 footer{
+    margin-top: 20px;
+}
+#footerend{
+    
     display: flex;
-    height: 200px;
+    height: 100px;
     bottom: 0px;
     background-color: rgb(63, 62, 62);
     align-items: center;
@@ -283,4 +294,99 @@ a{
     background-color: grey;
     border-radius: 10px;
     overflow: hidden;
+}
+.contacticon:hover{
+    box-shadow: 0px 0px 10px rgb(34, 217, 220);
+}
+
+
+
+
+
+/* media quaries */
+@media (width=430px) {
+nav{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+a{
+    font-size: 16px;
+    color: white;
+
+}
+#first{
+    display: flex;
+   flex-direction: column;
+   align-content: center;
+    justify-content: space-evenly;
+
+
+}
+#myintro{
+width: 250px;
+    font-size: 12px;
+}
+#imagebox{
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+  
+ 
+
+
+
+
+}
+
+/* _____________________________________________ */
+.skillmainbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+   
+
+}
+
+#skill{
+    text-align: center;
+    font-size: 32px;
+}
+.skill_title{
+    font-size: 20px;
+    text-decoration: underline;
+   
+}
+.skill_discription{
+    font-size: 16px;
+    width: 300px;
+    font-weight:200;
+   
+}
+.skillimgbox{
+    height: 200px;
+    width: 300px;
+    
+}
+
+/* ________________________________________________
+
+
+*/
+
+.projectbox{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+.projectimgholder{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
 }
