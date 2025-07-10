@@ -4,9 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+<!-- Title Tag (max ~60 characters) -->
+<title>bhupeshrautela | Front-End Developer Portfolio</title>
+
+<!-- Description Tag (max ~160 characters) -->
+<meta name="description" content="I'm Bhupesh Rautela, a Front-End Web Developer specializing in HTML, CSS, JavaScript, and React. Check out my latest projects and contact me!">
+
+<!-- Keywords Tag -->
+<meta name="keywords" content="front-end developer, web developer, HTML, CSS, JavaScript, React, portfolio, UI developer, responsive design, [Your Name]">
+
+<!-- Author -->
+<meta name="author" content="Bhupesh rautela">
+
+<!-- Viewport for mobile support -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Robots (indexing & crawling control) -->
+<meta name="robots" content="index, follow">
+
+<!-- Canonical link (prevents duplicate URL issues) -->
+<link rel="canonical" href="https://bhupeshrautela.netlify.app/">
+
+<!-- Open Graph (for LinkedIn, Facebook) -->
+<meta property="og:title" content="Bhupesh Rautela | Front-End Web Developer">
+<meta property="og:description" content="Portfolio of Bhupesh Rautela, a skilled front-end developer working with modern UI technologies like React, CSS, and JavaScript.">
+<meta property="og:image" content="https://bhupeshrautela.netlify.app/images/preview.png">
+<meta property="og:url" content="https://bhupeshrautela.netlify.app">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card (for Twitter previews) -->
+
+
+
+
+    
+    <title>bhupeshrautela</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+
 
 </head>
 
@@ -22,26 +61,27 @@
     <main>
         <section id="first">
 
-            <h1 id="myintro"><span> Hi, I’m Bhupesh </span> a fresher frontend developer currently looking for an
+            <h1 id="myIntro"><span data-aos="fade-in" data-aos-offset="300"> Hi, I’m Bhupesh </span> a fresher frontend developer currently looking for an
                 internship opportunity.
 
             </h1>
-            <div id="imagebox">
-                <img src="/assests/aboy.avif" alt="a boy">
+            <div id="imageBox" data-aos="zoom-in"data-aos-offset=400 >
+                <img class="image
+                " src="/assests/aboy.avif" alt="a boy">
             </div>
 
         </section>
         <!-- ___________________first section end here__________________________________________ -->
         <!-- second section start  -->
-        <section id="second">
+        <section id="second" >
 
-            <h2 id="skill">skill</h2>
+            <h2 id="skill" data-aos="slide-right">skill</h2>
             <!-- ________________________________________________________________first skill -->
-            <div class="skillmainbox">
-                <div class="skill_section">
+            <div class="skillMainBox">
+                <div class="skillSection">
 
-                    <h3 class="skill_title">Frontend Developer </h3>
-                    <p class="skill_discription">
+                    <h3 class="skillTitle" data-aos="slide-right">Frontend Developer </h3>
+                    <p class="skillDiscription" data-aos="slide-up">
                         I have a good understanding of HTML, CSS, and JavaScript, which allows me to build complete and
                         responsive websites.
 
@@ -53,8 +93,8 @@
                         I’m continuously learning and improving my skills to build better web applications.
                     </p>
                 </div>
-                <div class="skillimgbox">
-                    <img class="skillimagebox" src="/assests/frontend.jpg" alt="">
+                <div class="skillImgBox" data-aos="slide-left">
+                    <img class="skillImage" src="/assests/frontend.jpg" alt="">
                 </div>
 
             </div>
@@ -63,17 +103,17 @@ _______________first skill end _______________________________________________ -
             <!-- second start -->
 
 
-            <div class="skillmainbox">
-                <div class="skill_section">
+            <div class="skillMainBox">
+                <div class="skillSection">
 
-                    <h3 class="skill_title">UI/UX DESIGN </h3>
-                    <p class="skill_discription">
+                    <h3 class="skillTitle" data-aos="slide-right">UI/UX DESIGN </h3>
+                    <p class="skillDiscription" data-aos="slide-up">
                         I’m learning UI/UX design and enjoy creating clean, simple, and user-friendly layouts. I’m
                         exploring tools like Figma and improving my understanding of design principles step by step.
                     </p>
                 </div>
-                <div class="skillimgbox">
-                    <img class="skillimagebox" src="/assests/uiux.jpg" alt="">
+                <div class="skillImgBox" data-aos="slide-left">
+                    <img class="skillImage" src="/assests/uiux.jpg" alt="">
                 </div>
             </div>
 
@@ -81,18 +121,18 @@ _______________first skill end _______________________________________________ -
             <!-- second skill end here___________________ -->
             <!-- third skill  -->
 
-            <div class="skillmainbox">
-                <div class="skill_section">
+            <div class="skillMainBox">
+                <div class="skillSection">
 
-                    <h3 class="skill_title">video editing </h3>
-                    <p class="skill_discription">
+                    <h3 class="skillTitle" data-aos="slide-right">video editing </h3>
+                    <p class="skillDiscription" data-aos="slide-up">
                         I’m learning video editing using DaVinci Resolve. I enjoy editing clips, adding transitions,
                         music, and visual effects to create smooth and engaging videos. I'm continuously exploring new
                         techniques and workflows to improve my editing skills
                     </p>
                 </div>
-                <div class="skillimgbox">
-                    <img class="skillimagebox" src="/assests/video.jpg" alt="">
+                <div class="skillImgBox" data-aos="slide-left">
+                    <img class="skillImage" src="/assests/video.jpg" alt="">
                 </div>
 
             </div>
@@ -112,18 +152,18 @@ _______________first skill end _______________________________________________ -
 
         <section id="third">
 
-            <h3 id="project_title">projects</h3>
-            <div id="projectholder">
-                <div class="projectbox">
-                    <div class="projectimgholder">
-                        <img class="projectimages" src="/assests/anime.jpg" alt="">
+            <h3 id="projectTitle" data-aos="slide-right">projects</h3>
+            <div id="projectHolder">
+                <div class="projectBox" data-aos="slide-right">
+                    <div class="projectImgHolder">
+                        <img class="projectImages" src="/assests/anime.jpg" alt="">
 
                     </div>
-                    <div class="project_title_disc">
-                        <h4 class="project_heading">
+                    <div class="projectTitleDesc">
+                        <h4 class="projectHeading">
                             anime fetching
                         </h4>
-                        <p class="project_disc">
+                        <p class="projectDisc">
                             fetching from a url
                         </p>
 
@@ -131,16 +171,16 @@ _______________first skill end _______________________________________________ -
                 </div>
 
 
-                <div class="projectbox">
-                    <div class="projectimgholder">
-                        <img class="projectimages" src="/assests/anime.jpg" alt="">
+                <div class="projectBox" data-aos="slide-up">
+                    <div class="projectImgHolder">
+                        <img class="projectImages" src="/assests/anime.jpg" alt="">
 
                     </div>
-                    <div class="project_title_disc">
-                        <h4 class="project_heading">
+                    <div class="projectTitleDesc">
+                        <h4 class="projectHeading">
                             anime fetching
                         </h4>
-                        <p class="project_disc">
+                        <p class="projectDisc">
                             fetching from a url
                         </p>
 
@@ -148,32 +188,32 @@ _______________first skill end _______________________________________________ -
                 </div>
 
 
-                <div class="projectbox">
-                    <div class="projectimgholder">
-                        <img class="projectimages" src="/assests/anime.jpg" alt="">
+                <div class="projectBox" data-aos="slide-down">
+                    <div class="projectImgHolder">
+                        <img class="projectImages" src="/assests/anime.jpg" alt="">
 
                     </div>
-                    <div class="project_title_disc">
-                        <h4 class="project_heading">
+                    <div class="projectTitleDesc">
+                        <h4 class="projectHeading">
                             anime fetching
                         </h4>
-                        <p class="project_disc">
+                        <p class="projectDisc">
                             fetching from a url
                         </p>
 
                     </div>
                 </div>
 
-                <div class="projectbox">
-                    <div class="projectimgholder">
-                        <img class="projectimages" src="/assests/anime.jpg" alt="">
+                <div class="projectBox" data-aos="slide-left">
+                    <div class="projectImgHolder">
+                        <img class="projectImages" src="/assests/anime.jpg" alt="">
 
                     </div>
-                    <div class="project_title_disc">
-                        <h4 class="project_heading">
+                    <div class="projectTitleDesc">
+                        <h4 class="projectHeading">
                             anime fetching
                         </h4>
-                        <p class="project_disc">
+                        <p class="projectDisc">
                             fetching from a url
                         </p>
 
@@ -190,18 +230,18 @@ _______________first skill end _______________________________________________ -
 
 
     <footer>
-<div id="footerend">
+<div id="footerEnd">
         <div id="contact_me">
             <a href=" https://www.linkedin.com/in/bhupeshrautela/" class="contactpath">
-                <img class="contacticon" src="/assests/linkedin.svg" alt=""> 
+                <img class="contactIcon" src="/assests/linkedin.svg" alt=""> 
                 
             </a>
             <a href="https://github.com/azlamser" class="contactpath">
-                <img class="contacticon" src="/assests/github.svg" alt=""> 
+                <img class="contactIcon" src="/assests/github.svg" alt=""> 
                 
             </a>
             <a href="mailto:bhupeshrautela08@gmail.com" class="contactpath">
-                <img class="contacticon" src="/assests/gmail.svg" alt=""> 
+                <img class="contactIcon" src="/assests/gmail.svg" alt=""> 
                 
             </a>
             
@@ -211,12 +251,18 @@ _______________first skill end _______________________________________________ -
         </div>
         
 
-        <p id="footerend">thankyou for visiting ..... </p>
+        <p id="thanks">thankyou for visiting ..... </p>
 
 
 
 
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 

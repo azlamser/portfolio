@@ -1,392 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Michroma&family=Rubik+Glitch&family=Tektur:wdth,wght@75..100,400..900&display=swap');
+
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
-   
+
 
 }
-/* __________________________________________________________________________ */
-/* header part start */
 
 
 
-a{
-    text-align: right;
-    text-decoration: none;
-    color: rgb(255, 129, 255);
-    padding: 5px;
-    padding-right: 20px;
-   
-
-
-
+/* header part start from here  */
+header {
+    border-radius: 40px;
 }
 
 nav {
+    background-color: rgb(255, 255, 255);
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row-reverse;
-   background: linear-gradient(to right, #667eea, #764ba2);
-color: #fff;
+    padding-right: 30px;
 
-    
+
 
 }
 
 a {
-   font-family: 'Poppins', sans-serif;
-
+    color: black;
+    text-decoration: none;
     font-size: 16px;
-    padding-right: 20px;
-    color: #333333;
+    font-family: "Tektur", sans-serif;
+    margin: 10px;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1) 50ms;
+
 
 }
 
 a:hover {
-    text-decoration-line: underline;
-    text-decoration-color: rgb(132, 157, 255);
-    color: whitesmoke;
+    text-decoration: underline;
+    transform: scale(1.1);
+
+
 }
 
-/* header & navbar part endhere */
-/* ________________________________________________________________________-_ */
+/* header styling end here  */
+/* _________________________________________________________ */
 
-/* #first{
-    background:radial-gradient(to right,red blue)
-    height: 590px;
-} */
 #first {
-    width: 100vw;
-    height: 630px;
-    /* background: linear-gradient(to right, rgb(132, 157, 255), rgb(255, 129, 255)); */
-    /* background: linear-gradient(to right, #fbc2eb, #a6c1ee); */
-background: linear-gradient(to right, #667eea, #764ba2);
-
-
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 43, 43);
+    height: 600px;
 
 
 
 }
 
-#myintro {
-  
-  font-family: 'Poppins', sans-serif;
-
-
-    margin-left: 50px;
+#myIntro {
+    font-family: "Michroma", sans-serif;
     text-align: center;
     width: 500px;
-    color: #222;
-    text-transform: capitalize;
+    margin-bottom: 50px;
+
 }
 
 span {
-    text-transform: capitalize;
     font-size: 40px;
-      color:#3b3b98;
-    /* color: rgb(30, 0, 255); */
-  
+    color: #00FF00
 }
 
-#imagebox {
-    height: 400px;
-    width: 400px;
+#imageBox {
+    height: 300px;
+    width: 300px;
     overflow: hidden;
-    margin-right: 100px;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    box-shadow: 4px 4px 10px blue,
-        -4px -4px 10px purple;
+    border-radius: 50%;
+    border: 2px solid;
+    box-shadow: 0px 0px 20px #00ff00;
 }
 
-#imagebox img {
+.image {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
 }
 
+/* first section end here  */
 
-/* 
- main & 
-  section first end here
--
-skill and section second start 
-------------------------------------------- ______________________________*/
 #second {
-    background-color: #1e1b32; /* Dark violet-gray */
+    background-color: rgb(201, 197, 197);
+    color: rgb(43, 42, 42);
+}
 
-color: #e0e0e0; /* Soft light gray instead of pure white */
-
-    height: 630*px;
-
+.skillMainBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #skill {
     text-align: center;
+    font-family: "Michroma";
     font-size: 50px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
-
-.skillmainbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px;
-    align-items: center;
-    
-    padding: 10px;
-  
-
-}
-
-.skill_section {
-    width: 400px;
-    margin-left: 30px;
-
-}
-
-.skill_title {
-    font-family: 'Playfair Display', serif;
-  font-weight: 700;
-    font-size: 40px;
+.skillSection {
+    width: 500px;
     margin-bottom: 40px;
-    color: rgb(227, 224, 227);
-    text-transform: uppercase;
-    width: 500px;
 }
 
-.skill_discription {
-    font-family: 'Playfair Display', serif;
-  font-weight: 700;
-    width: 600px;
-    color: rgb(177, 174, 174);
-    font-size: large;
+.skillTitle {
+    font-size: 30px;
+    margin:20px
 }
 
-.skillimgbox {
-    height: 300px;
-
-
-   border-radius: 50px;
-    border: 2px solid white;
-    width: 500px;
-    margin-right: 100px;
-    box-shadow: 10px 10px 5px purple,-10px -10px 5px rgb(197, 197, 242);
-    box-shadow: 0 4px 20px rgba(255, 0, 255, 0.3);
-border: 1px solid #ffffff20;
-background: linear-gradient(145deg, #2b002f, #3a003f);
-overflow: hidden;
-margin-top: 20px;
-
-
-}
-.skillimgbox:hover{
-    transform: scale(1.02);
-  transition: 0.3s ease-in-out;
-  box-shadow: 0 0 20px rgba(255, 0, 255, 0.2);
-}
-.skillimagebox{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    
+.skillDiscription {
+    font-size: 16px;
+    font-weight: 100;
 }
 
-
-/* second section and skill part end here */
-/* _______________________________________________________________________- */ 
-
-
-#third{
-    background-color: rgb(125, 125, 160);
-    color: grey;
-    
-}
-#project_title{
-text-align: center;
-text-transform: uppercase;
-font-size: 50px;
-color: white;
-}
-
-#projectholder{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 40px;
-    align-content: center;
-    align-items: center;
-    overflow: hidden;
-
-
-}
-.projectbox{
-    height: 300px;
+.skillImgBox {
     width: 300px;
-    border: 2px solid;
-    border-radius: 30px;
-    overflow: hidden;
-    transition: ease 1s all;
-    margin: 15px;
-    margin-bottom: 20px;
-    box-shadow: 0px 5px 4px rgb(20, 82, 88);
-    
-}
-.projectbox:hover{
-    scale: 1.1;
-}
-.projectimgholder{
-    width: 100%;
+    border-radius: 20px;
     height: 200px;
     overflow: hidden;
-    
-}
-.project_title_disc{
-
-    height: 100%;
-    color: white;
-    padding: 10px;
-   
-}
-.project_heading{
-    font-weight: bolder;
-    color: black;
-}
-.projectimages{
-object-fit: cover;
-height: 100%;
-width: 100%
+    margin-bottom: 60px;
+    transition: all 100ms cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
 }
 
-
-
-
-/* third section & project part end here */
-/* _____________________________________________________________________-____ */
-/* footer & contact me part start */
-
-footer{
-    margin-top: 20px;
-}
-#footerend{
-    
-    display: flex;
-    height: 100px;
-    bottom: 0px;
-    background-color: rgb(63, 62, 62);
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-a{
-    color: white;
-}
-.contacticon{
-    height: 50px;
-    background-color: grey;
-    border-radius: 10px;
-    overflow: hidden;
-}
-.contacticon:hover{
-    box-shadow: 0px 0px 10px rgb(34, 217, 220);
-}
-
-
-
-
-
-/* media quaries */
-@media (width<430px) {
-nav{
-    display: flex;
-    flex-direction: column-reverse;
-
-}
-a{
-    font-size: 16px;
-    color: white;
-
-}
-#first{
-    display: flex;
-   flex-direction: column;
-   align-content: center;
-    justify-content: space-evenly;
-
-
-}
-#myintro{
-width: 250px;
-    font-size: 12px;
-}
-#imagebox{
-   height: 200px;
-   width: 200px;
-   border-radius: 100px;
-  
- 
-
-
+.skillImgBox:hover {
+    transform: scale(1.1);
 
 
 }
 
-/* _____________________________________________ */
-.skillmainbox{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
-   
+.skillImage {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+/* section second end here  */
+/* ___________________________________________________________ */
+
+#third {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    color: rgb(219, 217, 217);
 
 }
 
-#skill{
+#projectTitle {
+    font-size: 50px;
+    font-family: "Michroma";
+    text-transform: capitalize;
     text-align: center;
-    font-size: 32px;
-}
-.skill_title{
-    font-size: 20px;
-    text-decoration: underline;
-   
-}
-.skill_discription{
-    font-size: 16px;
-    width: 300px;
-    font-weight:200;
-   
-}
-.skillimgbox{
-    height: 200px;
-    width: 300px;
-    
+
 }
 
-/* ________________________________________________
+#projectHolder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-
-*/
-
-.projectbox{
-    height: 200px;
-    width: 200px;
+.projectBox {
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
     overflow: hidden;
+    border: 2px solid;
+    margin: 10px;
+
 }
-.projectimgholder{
-    height: 150px;
+
+.projectImgHolder {
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.projectImages {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
+.projectTitleDesc {
+    margin-left: 10px;
+}
 
+.projectHeading {
+    font-family: "Michroma", sans-serif;
+}
 
+.projectDisc {
+    font-family: "Michroma", sans-serif;
+    font-size: 12px
+}
+/* third prject part end here  */
+/* ___________________________________________________________ */
+#footerEnd{
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.contactIcon{
 
+    height: 50px;
+    width: 50px;
+
+}
+.contactIcon:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px #00FF00 4px;
+}
+#thanks{
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    color: #00FF00;
+    background-color: black;
 }
