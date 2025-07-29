@@ -157,8 +157,8 @@ span {
 }
 
 .projectBox {
-    height: 300px;
-    width: 250px;
+    height: fit-content;
+    width: 400px;
     border-radius: 20px;
     overflow: hidden;
     border: 2px solid;
@@ -187,8 +187,11 @@ span {
 }
 
 .projectDisc {
-    font-family: "Michroma", sans-serif;
-    font-size: 12px;
+   margin: 10px;
+    font-size: 16px;
+    word-break: break-all;
+    word-wrap: normal;
+    overflow: hidden;
 }
 
 /* Footer */
